@@ -57,22 +57,24 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine("Input first number");
-int num1 = Convert.ToInt32(Console.ReadLine());
-int i = num1;
-if (i % 2 == 0)
-{
-    Console.WriteLine($"number {i} -> even");
-}
-else 
-{
-    Console.WriteLine($"number {i} -> not even");
-}
+// Console.WriteLine("Input first number");
+// int i = Convert.ToInt32(Console.ReadLine());
+// if (i % 2 == 0)
+// {
+//     Console.WriteLine($"number {i} -> even");
+// }
+// else 
+// {
+//     Console.WriteLine($"number {i} -> not even");
+// }
 
-// Задача 3. Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+// Задача 3. Напишите программу, которая на вход принимает одно число (N), а на выходе 
+// показывает все целые числа в промежутке от -N до N.
 
 // 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
 // 2 -> " -2, -1, 0, 1, 2"
+
+
 // Console.WriteLine("Input N");
 // int n = Convert.ToInt32(Console.ReadLine()); 
 
